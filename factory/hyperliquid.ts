@@ -30,7 +30,7 @@ const superxConfig: BuilderConfig = {
 // factory export. The DefiLlama dimension framework picks the appropriate
 // fields (volume vs fees) based on each protocol's metadata adapter type.
 const builderConfigs: Record<string, BuilderConfig> = {
-  "bloxwap-perps": {
+  "bloxwap": {
     addresses: ["0x71b09a08257078a4d642f7dd7315e656c837329a"],
     start: "2026-04-25",
     methodology: {
